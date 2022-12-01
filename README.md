@@ -4,7 +4,7 @@ Project to train RL agent for [Udacity Navigation Environment](https://github.co
 
 ## Dependencies
 
-To set up your python environment to run the code in this repository, follow the [instructions from Udacity DRLND repository](https://github.com/udacity/deep-reinforcement-learning) below:
+To set up your python environment to run the code in this repository, follow the adapted [instructions from Udacity DRLND repository](https://github.com/udacity/deep-reinforcement-learning) below:
 
 1. Create (and activate) a new environment with Python 3.6.
 
@@ -27,8 +27,8 @@ To set up your python environment to run the code in this repository, follow the
 	
 4. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.  
     ```bash
-    git clone https://github.com/udacity/deep-reinforcement-learning.git
-    cd deep-reinforcement-learning/python
+    git clone git@github.com:jkim222383/RL-Navigation.git
+    cd RL-Navigation/python
     pip install .
     ```
 
