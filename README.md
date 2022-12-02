@@ -2,6 +2,22 @@
 
 Project to train RL agent for [Udacity Navigation Environment](https://github.com/udacity/Value-based-methods/tree/main/p1_navigation)
 
+## About Project
+
+The notebook included in this repository trains a Deep Q Network to predict the action values for an agent in Udacity Navigation Environment, which in turn can be used to control the agent's policy towards optimal policy. 
+
+![Navigation Environment Gif](udacity_navigation_env.gif)
+
+[Gif Source: Udacity DRLND Repository](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
+
+In this environment, at each time step, the agent is given information about the environment in the form of a 37-dimensional vector, which contains information such as the agent's velocity and the ray-based view of objects in the agent's forward direction.
+
+Based on this representation of the state, the agent can choose one of four actions (move forward, move backward, turn left, turn right) at each timestep to navigate around a large 2D space. 
+
+When the agent runs into a yellow banana, the agent receives a reward of +1, while running into a blue banana yields a reward of -1. The goal of the agent is to maximize the reward at the end of each episode. 
+
+The environment is considered "solved" when the agent receives an average reward > 13 over 100 consecutive episodes. 
+
 ## Dependencies
 
 To set up your python environment to run the code in this repository, follow the adapted [instructions from Udacity DRLND repository](https://github.com/udacity/deep-reinforcement-learning) below:
@@ -39,3 +55,8 @@ To set up your python environment to run the code in this repository, follow the
 
 6. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
+## Instructions
+
+Follow the instructions on [Navigation Jupyter Notebook](p1_navigation/Navigation.ipynb).
+
+You can choose to train a new model from scratch while experimenting with different combinations of hyperparameters (in `config_grid`), or simply load the pretrained model weights and observe the agent's policy in the environment. 
