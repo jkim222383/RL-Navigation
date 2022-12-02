@@ -6,7 +6,7 @@ Project to train RL agent for [Udacity Navigation Environment](https://github.co
 
 The notebook included in this repository trains a Deep Q Network to predict the action values for an agent in Udacity Navigation Environment, which in turn can be used to control the agent's policy towards optimal policy. 
 
-![Navigation Environment Gif](udacity_navigation_env.gif)
+![Navigation Environment Gif](p1_navigation/udacity_navigation_env.gif)
 
 [Gif Source: Udacity DRLND Repository](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
 
